@@ -1,0 +1,12 @@
+return {
+  -- https://github.com/LazyVim/LazyVim/discussions/723
+  "neovim/nvim-lspconfig",
+  opts = {
+    -- make sure mason installs the server
+    servers = {
+      -- pyright = {},
+      -- solargraph = {},
+      clangd = {},
+    },
+  },
+}
